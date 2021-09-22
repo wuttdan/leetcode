@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\AwareWork\\Leetcode\\LeetcodeApp\\LeetcodeApp.csproj": {}
+  },
+  "projects": {
+    "F:\\AwareWork\\Leetcode\\LeetcodeApp\\LeetcodeApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\AwareWork\\Leetcode\\LeetcodeApp\\LeetcodeApp.csproj",
+        "projectName": "LeetcodeApp",
+        "projectPath": "F:\\AwareWork\\Leetcode\\LeetcodeApp\\LeetcodeApp.csproj",
+        "packagesPath": "C:\\Users\\WuttDan\\.nuget\\packages\\",
+        "outputPath": "F:\\AwareWork\\Leetcode\\LeetcodeApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WuttDan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "D:\\NugetPackageCache": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
