@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JkDhhen7we2AZA3ca3n6b0kdueY/eCWvBloeq807LKVyIF1zvcTZ2/wY/f6xniSgBmRE8E5s3aWw0Y0sSPSwUw==",
+  "dgSpecHash": "5+H8L7+5arWpyLY+cHewADicKUHy639e5oL9sXrY8JkLuN16N9uGYSoaGuAuhTm3lxVh1C678RSp4fBwpRYtKw==",
   "success": true,
   "projectFilePath": "F:\\AwareWork\\Leetcode\\LeetcodeApp\\LeetcodeApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\WuttDan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

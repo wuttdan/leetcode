@@ -9,8 +9,8 @@ namespace LeetcodeApp
     {
         public static void Main(string[] args)
         {
-            //var problem = new Problem_TwoSum() as IRunable;
-            var problem = new Problem_SwapNodesInPairs() as IRunable;
+            var problem = new Problem_TwoSum() as IRunable;
+            //var problem = new Problem_SwapNodesInPairs() as IRunable;
             problem.Run();
         }
     }

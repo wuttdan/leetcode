@@ -1,6 +1,8 @@
-﻿using LeetcodeApp.Interfaces;
+﻿using LeetcodeApp.Extensions;
+using LeetcodeApp.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,40 +13,44 @@ namespace LeetcodeApp.Problems
     {
         public void Run()
         {
-            //var dictionary = array.Select((value, index) => new { value, index })
-            //           .ToDictionary(pair => pair.value, pair => pair.index);
+            //1
+            var nums1 = new int[] { 3, 2, 4 };
+            var expected1 = 6;
+            var results1 = TwoSum(nums1, expected1);
 
-            var nums = Enumerable.Range(1, 10000).ToArray();
-            var expected = 19999;
+            //2
+            var nums2 = new int[] { 3, 3 };
+            var expected2 = 6;
+            var results2 = TwoSum(nums2, expected2);
 
-            var results = TwoSum(nums, expected);
+            ////3
+            var nums3 = Enumerable.Range(1, 10000).ToArray();
+            var expected3 = 19999;
+            var results3 = TwoSum(nums3, expected3);
 
-            Console.WriteLine(results);
+            Debug.WriteLine($"1. results>> {results1[0]} {results1[1]}");
+            Debug.WriteLine($"2. results>> {results2[0]} {results2[1]}");
+            Debug.WriteLine($"3. results>> {results3[0]} {results3[1]}");
         }
 
         public int[] TwoSum(int[] nums, int target)
         {
-            int[] results = new int[] { 0, 0 };
-
-            for (int i = 0; i < nums.Length; i++)
+            var dict = new Dictionary<int, int>();
+            var complement = 0;
+            for (var i = 0; i < nums.Length; i++)
             {
-                var dict = nums.Where(x => nums[i] + x == target)
-                               .Select((value, index) => new { value, index })
-                               .ToDictionary(pair => pair.value, pair => pair.index);
-                Console.WriteLine(dict);
-                //for (int j = 0; j < nums.Length; j++)
-                //{
-                //    Console.WriteLine($"Loop {i}, {j}");
-                //    if (i != j && nums[i] + nums[j] == target)
-                //    {
-                //        results[0] = i;
-                //        results[1] = j;
-                //        return results;
-                //    }
-                //}
+                complement = target - nums[i];
+                var index = 0;
+                if (complement > 0 && dict.TryGetValue(complement, out index))
+                {
+                    return new int[] { index, i };
+                }
+                if (dict.ContainsKey(nums[i]) == false)
+                {
+                    dict.Add(nums[i], i);
+                }
             }
-
-            return results;
+            return null;
         }
     }
 }
