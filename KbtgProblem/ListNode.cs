@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetcodeApp.Commons
+namespace KbtgProblem
 {
     public class ListNode
     {
@@ -46,7 +46,7 @@ namespace LeetcodeApp.Commons
                     list[i-1].next = list[i];
                 }
             }
-            Debug.WriteLine($"ToListNode: {list[0].ToString()}");
+            //Debug.WriteLine($"ToListNode: {list[0].ToString()}");
             return list[0];
         }
     }
