@@ -14,8 +14,12 @@ namespace KbtgProblem
             //var prob = (IRunable)new Problem_GlassessOfWater(); 
             //var prob = (IRunable)new Problem_PhoneNumber();
             //var prob = (IRunable)new Problem_DifferentNumberDivineBy3();
-            var prob = (IRunable)new Problem_SwappingNode();
+            //var prob = (IRunable)new Problem_SwappingNode();
             //var prob = (IRunable)new Problem_NextGreaterNode();
+            //var prob = (IRunable)new Problem_NextGreaterNode();
+
+            var prob = (IRunable)new Problem_RotateImage();
+            //var prob = (IRunable)new Problem_SmallestInterger();
             prob.Run();
 
             Console.ReadLine();

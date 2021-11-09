@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -42,16 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\Maxtrix_Extension.cs" />
     <Compile Include="Interfaces\IRunable.cs" />
     <Compile Include="ListNode.cs" />
-    <Compile Include="Problems\1.Problem_ArmyReport.cs" />
-    <Compile Include="Problems\7.Problem_DifferentNumberDivineBy3.cs" />
-    <Compile Include="Problems\9.Problem_NextGreaterNode.cs" />
-    <Compile Include="Problems\8.Problem_SwappingNode.cs" />
-    <Compile Include="Problems\5.Problem_PhoneNumber.cs" />
-    <Compile Include="Problems\4.Problem_GlassessOfWater.cs" />
-    <Compile Include="Problems\3.Problem_FileTypeBytes.cs" />
-    <Compile Include="Problems\2.Problem_DigitalClock.cs" />
+    <Compile Include="Problems\01.Problem_ArmyReport.cs" />
+    <Compile Include="Problems\10.Problem_SmallestInterger.cs" />
+    <Compile Include="Problems\09.Problem_RotateImage.cs" />
+    <Compile Include="Problems\06.Problem_DifferentNumberDivineBy3.cs" />
+    <Compile Include="Problems\08.Problem_NextGreaterNode.cs" />
+    <Compile Include="Problems\07.Problem_SwappingNode.cs" />
+    <Compile Include="Problems\05.Problem_PhoneNumber.cs" />
+    <Compile Include="Problems\04.Problem_GlassessOfWater.cs" />
+    <Compile Include="Problems\03.Problem_FileTypeBytes.cs" />
+    <Compile Include="Problems\02.Problem_DigitalClock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
