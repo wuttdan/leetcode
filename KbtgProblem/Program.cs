@@ -17,10 +17,10 @@ namespace KbtgProblem
             //var prob = (IRunable)new Problem_SwappingNode();
             //var prob = (IRunable)new Problem_NextGreaterNode();
             //var prob = (IRunable)new Problem_NextGreaterNode();
-
-            var prob = (IRunable)new Problem_RotateImage();
+            //var prob = (IRunable)new Problem_RotateImage();
             //var prob = (IRunable)new Problem_SmallestInterger();
-            prob.Run();
+            //var prob = (IRunable)new Problem_DetectiveGeek();
+            //prob.Run();
 
             Console.ReadLine();
         }

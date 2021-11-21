@@ -37,6 +37,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,6 +52,7 @@
     <Compile Include="Interfaces\IRunable.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="Problems\01.Problem_ArmyReport.cs" />
+    <Compile Include="Problems\11.Problem_DetectiveGeek.cs" />
     <Compile Include="Problems\10.Problem_SmallestInterger.cs" />
     <Compile Include="Problems\09.Problem_RotateImage.cs" />
     <Compile Include="Problems\06.Problem_DifferentNumberDivineBy3.cs" />
@@ -66,6 +70,7 @@
       <Link>.editorconfig</Link>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
