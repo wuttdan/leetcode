@@ -48,10 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\Array_Extension.cs" />
     <Compile Include="Extensions\Maxtrix_Extension.cs" />
     <Compile Include="Interfaces\IRunable.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="Problems\01.Problem_ArmyReport.cs" />
+    <Compile Include="Problems\13.Problem_CyclicRotation.cs" />
+    <Compile Include="Problems\12.Problem_BinaryGap.cs" />
     <Compile Include="Problems\11.Problem_DetectiveGeek.cs" />
     <Compile Include="Problems\10.Problem_SmallestInterger.cs" />
     <Compile Include="Problems\09.Problem_RotateImage.cs" />

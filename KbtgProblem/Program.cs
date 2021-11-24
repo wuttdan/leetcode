@@ -20,7 +20,9 @@ namespace KbtgProblem
             //var prob = (IRunable)new Problem_RotateImage();
             //var prob = (IRunable)new Problem_SmallestInterger();
             //var prob = (IRunable)new Problem_DetectiveGeek();
-            //prob.Run();
+            //var prob = new Problem_BinaryGap();
+            var prob = new Problem_CyclicRotation();
+            prob.Run();
 
             Console.ReadLine();
         }
