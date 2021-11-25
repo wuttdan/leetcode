@@ -1,0 +1,16 @@
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\CodinGame.exe
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\CodinGame.deps.json
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\CodinGame.runtimeconfig.json
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\CodinGame.runtimeconfig.dev.json
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\CodinGame.dll
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\ref\CodinGame.dll
+F:\AwareWork\Leetcode\CodinGame\bin\Debug\net5.0\CodinGame.pdb
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.csproj.AssemblyReference.cache
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.GeneratedMSBuildEditorConfig.editorconfig
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.AssemblyInfoInputs.cache
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.AssemblyInfo.cs
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.csproj.CoreCompileInputs.cache
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.dll
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\ref\CodinGame.dll
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.pdb
+F:\AwareWork\Leetcode\CodinGame\obj\Debug\net5.0\CodinGame.genruntimeconfig.cache

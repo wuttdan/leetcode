@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e3e33bd7-699a-4189-9728-dcbe4fb262a9": {
+      "ProjectGuid": "e3e33bd7-699a-4189-9728-dcbe4fb262a9",
+      "DisplayName": "KbtgProblem",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d2fc6c83-c624-4a3c-8012-55f12de28e0a": {
+      "ProjectGuid": "d2fc6c83-c624-4a3c-8012-55f12de28e0a",
+      "DisplayName": "LeetcodeApp",
+      "ColorIndex": 1
+    },
+    "51114d87-cbb3-407c-b235-6ed17121ee22": {
+      "ProjectGuid": "51114d87-cbb3-407c-b235-6ed17121ee22",
+      "DisplayName": "CodinGame",
+      "ColorIndex": 2
+    },
+    "dc9a61bc-968f-467b-a6ef-824c1969f124": {
+      "ProjectGuid": "dc9a61bc-968f-467b-a6ef-824c1969f124",
+      "DisplayName": "ConsoleTest",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
