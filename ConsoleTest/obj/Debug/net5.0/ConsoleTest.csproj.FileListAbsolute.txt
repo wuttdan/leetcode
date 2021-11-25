@@ -13,3 +13,4 @@ F:\AwareWork\Leetcode\ConsoleTest\obj\Debug\net5.0\ConsoleTest.dll
 F:\AwareWork\Leetcode\ConsoleTest\obj\Debug\net5.0\ref\ConsoleTest.dll
 F:\AwareWork\Leetcode\ConsoleTest\obj\Debug\net5.0\ConsoleTest.pdb
 F:\AwareWork\Leetcode\ConsoleTest\obj\Debug\net5.0\ConsoleTest.genruntimeconfig.cache
+F:\AwareWork\Leetcode\ConsoleTest\obj\Debug\net5.0\ConsoleTest.csproj.AssemblyReference.cache
